@@ -11,3 +11,5 @@ npm run dev
 
 // 构建
 npm run build
+// 第一次
+你好啊
