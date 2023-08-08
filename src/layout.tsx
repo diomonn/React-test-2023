@@ -36,8 +36,6 @@ function getIconFromKey(key) {
       return <IconTag className={styles.icon} />;
     case 'user':
       return <IconUser className={styles.icon} />;
-    case 'test':
-      return <IconTag className={styles.icon} />;
     default:
       return <div className={styles['icon-empty']} />;
   }

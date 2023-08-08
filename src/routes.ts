@@ -33,6 +33,20 @@ export const routes: IRoute[] = [
   {
     name: 'menu.test',
     key: 'test',
+    children:[
+      {
+        name: 'menu.test.day1',
+        key:'test/day1',
+      },
+      {
+        name: 'menu.test.day2',
+        key:'test/day2',
+      },
+      {
+        name: 'menu.test.day3',
+        key:'test/day3',
+      }
+    ]
   },
 ];
 

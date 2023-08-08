@@ -18,11 +18,10 @@ import useStorage from './utils/useStorage';
 import './mock';
 
 const store = createStore(rootReducer);
-
+//组件库的`语言包
 function Index() {
   const [lang, setLang] = useStorage('arco-lang', 'en-US');
   const [theme, setTheme] = useStorage('arco-theme', 'light');
-
   function getArcoLocale() {
     switch (lang) {
       case 'zh-CN':
